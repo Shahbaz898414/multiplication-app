@@ -26,19 +26,31 @@ submit.addEventListener('click', () => {
 
     }else if (val === mult) {
 
+
         console.log("inside if")
+
+
         count++;
+
+
         score.textContent = count;
+
 
         num1.textContent = Math.floor(Math.random() * 20);
 
+
         num2.textContent = Math.floor(Math.random() * 20);
+
 
     }else {
 
+
         num1.textContent = Math.floor(Math.random() * 20);
-         
+      
+        
         num2.textContent = Math.floor(Math.random() * 20);
 
+
     }
+
 });
